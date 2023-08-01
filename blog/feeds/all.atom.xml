@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>first try</title><link href="blog/" rel="alternate"></link><link href="blog/feeds/all.atom.xml" rel="self"></link><id>blog/</id><updated>2023-08-01T15:37:21+08:00</updated><entry><title>url 測試</title><link href="blog/relation_test.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-01T15:37:21+08:00</updated><author><name>40523122</name></author><id>tag:None,2023-08-01:blog/relation_test.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>first try</title><link href="https://s40523122.github.io/BlogTest/blog/" rel="alternate"></link><link href="https://s40523122.github.io/BlogTest/blog/feeds/all.atom.xml" rel="self"></link><id>https://s40523122.github.io/BlogTest/blog/</id><updated>2023-08-01T15:37:21+08:00</updated><entry><title>url 測試</title><link href="https://s40523122.github.io/BlogTest/blog/relation_test.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-01T15:37:21+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2023-08-01:/BlogTest/blog/relation_test.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;以下環境皆為近端執行結果
  這是用相對文件位置抓取的圖片
@@ -34,7 +34,7 @@ http://127.0.0.1:8000/images/AIJY.png
 不過文章網頁地址變成以下，導致無法訪問，且無法無法 THEME。
 http://127.0.0.1:8000/blog/relation_test.html&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content><category term="Test"></category><category term="images"></category></entry><entry><title>按鈕練習</title><link href="blog/22_button1.html" rel="alternate"></link><published>2018-08-28T12:00:00+08:00</published><updated>2023-07-31T17:19:16+08:00</updated><author><name>40523122</name></author><id>tag:None,2018-08-28:blog/22_button1.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/ul&gt;</content><category term="Test"></category><category term="images"></category></entry><entry><title>按鈕練習</title><link href="https://s40523122.github.io/BlogTest/blog/22_button1.html" rel="alternate"></link><published>2018-08-28T12:00:00+08:00</published><updated>2023-07-31T17:19:16+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2018-08-28:/BlogTest/blog/22_button1.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
