@@ -14,13 +14,13 @@
 
         <meta name="author" content="40523122" />
         <meta name="keywords" content="images" />
-        <meta name="description" content="這是用相對文件位置抓取的圖片 於近端網頁 在 SITEURL = &#39;./&#39;、RELATIVE_URLS = True 時，圖片地址為： http://127.0.0.1:8000/images/AIJY.png 在 SITEURL = &#39;./&#39;、RELATIVE_URLS = False 時，圖片地址為： http://127 …" />
+        <meta name="description" content="這是用相對文件位置抓取的圖片 於近端網頁 在 SITEURL = &#39;./&#39; RELATIVE_URLS = True 時，圖片地址為：http://127.0.0.1:8000/images/AIJY.png RELATIVE_URLS = False 時，圖片地址為：http://127.0.0 …" />
 
         <meta property="og:site_name" content="first try" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="url 測試"/>
         <meta property="og:url" content="https://s40523122.github.io/BlogTest/blog/relation_test.html"/>
-        <meta property="og:description" content="這是用相對文件位置抓取的圖片 於近端網頁 在 SITEURL = &#39;./&#39;、RELATIVE_URLS = True 時，圖片地址為： http://127.0.0.1:8000/images/AIJY.png 在 SITEURL = &#39;./&#39;、RELATIVE_URLS = False 時，圖片地址為： http://127 …"/>
+        <meta property="og:description" content="這是用相對文件位置抓取的圖片 於近端網頁 在 SITEURL = &#39;./&#39; RELATIVE_URLS = True 時，圖片地址為：http://127.0.0.1:8000/images/AIJY.png RELATIVE_URLS = False 時，圖片地址為：http://127.0.0 …"/>
         <meta property="article:published_time" content="2023-08-01" />
             <meta property="article:section" content="Test" />
             <meta property="article:tag" content="images" />
@@ -156,50 +156,47 @@ first try            </a>
  <img alt="圖片介紹" src="./images/AIJY.png"></p>
 <h1>於近端網頁</h1>
 <ul>
-<li>在 <code>SITEURL = './'</code>、<code>RELATIVE_URLS = True</code> 時，圖片地址為：
-<code>http://127.0.0.1:8000/images/AIJY.png</code></li>
 <li>
-<p>在 <code>SITEURL = './'</code>、<code>RELATIVE_URLS = False</code> 時，圖片地址為：
-<code>http://127.0.0.1:8000/images/AIJY.png</code></p>
+<p>在 <code>SITEURL = './'</code></p>
+<ul>
+<li><code>RELATIVE_URLS = True</code> 時，圖片地址為：<code>http://127.0.0.1:8000/images/AIJY.png</code></li>
+<li><code>RELATIVE_URLS = False</code> 時，圖片地址為：<code>http://127.0.0.1:8000/images/AIJY.png</code></li>
+</ul>
 </li>
 <li>
-<p>在 <code>SITEURL = 'blog'</code>、<code>RELATIVE_URLS = True</code> 時，圖片地址為：
-<code>http://127.0.0.1:8000/images/AIJY.png</code></p>
-</li>
-<li>
-<p>在 <code>SITEURL = 'blog'</code>、<code>RELATIVE_URLS = False</code> 時，圖片地址為：
-<code>http://127.0.0.1:8000/images/AIJY.png</code>
+<p>在 <code>SITEURL = 'blog'</code></p>
+<ul>
+<li><code>RELATIVE_URLS = True</code> 時，圖片地址為：<code>http://127.0.0.1:8000/images/AIJY.png</code></li>
+<li><code>RELATIVE_URLS = False</code> 時，圖片地址為：<code>http://127.0.0.1:8000/images/AIJY.png</code>
 不過文章網頁地址變成以下，導致無法訪問，且無法無法 THEME。
-<code>http://127.0.0.1:8000/blog/relation_test.html</code></p>
+<code>http://127.0.0.1:8000/blog/relation_test.html</code></li>
+</ul>
 </li>
 </ul>
 <h1>於遠端網頁</h1>
 <ul>
 <li>
-<p>在 <code>SITEURL = 'https://s40523122.github.io/BlogTest/blog'</code>、<code>RELATIVE_URLS = False</code> 時，圖片地址為：
-<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code></p>
+<p>在 <code>SITEURL = 'https://s40523122.github.io/BlogTest/blog'</code></p>
+<ul>
+<li><code>RELATIVE_URLS = False</code> 時，圖片地址為：<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code></li>
+<li>在 <code>RELATIVE_URLS = True</code> 時，圖片地址為：<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code></li>
+</ul>
 </li>
 <li>
-<p>在 <code>SITEURL = 'https://s40523122.github.io/BlogTest/blog'</code>、<code>RELATIVE_URLS = True</code> 時，圖片地址為：
-<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code></p>
-</li>
-<li>
-<p>在 <code>SITEURL = 'blog'</code>、<code>RELATIVE_URLS = True</code> 時，圖片地址為：
-<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code></p>
-</li>
-<li>
-<p>在 <code>SITEURL = 'blog'</code>、<code>RELATIVE_URLS = False</code> 時，圖片地址為：
-<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code>
+<p>在 <code>SITEURL = 'blog'</code></p>
+<ul>
+<li><code>RELATIVE_URLS = True</code> 時，圖片地址為：<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code></li>
+<li><code>RELATIVE_URLS = False</code> 時，圖片地址為：<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code>
 但文章網址變為以下，無法訪問
-<code>https://s40523122.github.io/BlogTest/blog/blog/relation_test.html</code></p>
+<code>https://s40523122.github.io/BlogTest/blog/blog/relation_test.html</code></li>
+</ul>
 </li>
 <li>
-<p>在 <code>SITEURL = './'</code>、<code>RELATIVE_URLS = True</code> 時，圖片地址為：
-<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code></p>
-</li>
-<li>
-<p>在 <code>SITEURL = './'</code>、<code>RELATIVE_URLS = False</code> 時，圖片地址為：
-<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code></p>
+<p>在 <code>SITEURL = './'</code></p>
+<ul>
+<li><code>RELATIVE_URLS = True</code> 時，圖片地址為：<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code></li>
+<li>在 <code>SITEURL = './'</code>、<code>RELATIVE_URLS = False</code> 時，圖片地址為：<code>https://s40523122.github.io/BlogTest/blog/images/AIJY.png</code></li>
+</ul>
 </li>
 </ul>
             </div>

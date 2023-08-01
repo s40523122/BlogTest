@@ -1,64 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>first try</title><link href="https://s40523122.github.io/BlogTest/blog/" rel="alternate"></link><link href="https://s40523122.github.io/BlogTest/blog/feeds/all.atom.xml" rel="self"></link><id>https://s40523122.github.io/BlogTest/blog/</id><updated>2023-08-02T02:43:35+08:00</updated><entry><title>url 測試</title><link href="https://s40523122.github.io/BlogTest/blog/relation_test.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-02T02:43:35+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2023-08-01:/BlogTest/blog/relation_test.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>first try</title><link href="https://s40523122.github.io/BlogTest/blog/" rel="alternate"></link><link href="https://s40523122.github.io/BlogTest/blog/feeds/all.atom.xml" rel="self"></link><id>https://s40523122.github.io/BlogTest/blog/</id><updated>2023-08-02T04:27:26+08:00</updated><entry><title>url 測試</title><link href="https://s40523122.github.io/BlogTest/blog/relation_test.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-02T04:27:26+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2023-08-01:/BlogTest/blog/relation_test.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;這是用相對文件位置抓取的圖片
  &lt;img alt="圖片介紹" src="./images/AIJY.png"&gt;&lt;/p&gt;
 &lt;h1&gt;於近端網頁&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;http://127 …&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：&lt;code&gt;http://127.0.0 …&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;這是用相對文件位置抓取的圖片
  &lt;img alt="圖片介紹" src="./images/AIJY.png"&gt;&lt;/p&gt;
 &lt;h1&gt;於近端網頁&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = 'blog'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = 'blog'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;
+&lt;p&gt;在 &lt;code&gt;SITEURL = 'blog'&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;
 不過文章網頁地址變成以下，導致無法訪問，且無法無法 THEME。
-&lt;code&gt;http://127.0.0.1:8000/blog/relation_test.html&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;http://127.0.0.1:8000/blog/relation_test.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;於遠端網頁&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = 'https://s40523122.github.io/BlogTest/blog'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;SITEURL = 'https://s40523122.github.io/BlogTest/blog'&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在 &lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = 'https://s40523122.github.io/BlogTest/blog'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = 'blog'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = 'blog'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;
+&lt;p&gt;在 &lt;code&gt;SITEURL = 'blog'&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;
 但文章網址變為以下，無法訪問
-&lt;code&gt;https://s40523122.github.io/BlogTest/blog/blog/relation_test.html&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;https://s40523122.github.io/BlogTest/blog/blog/relation_test.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：
-&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，圖片地址為：&lt;code&gt;https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content><category term="Test"></category><category term="images"></category></entry><entry><title>按鈕練習</title><link href="https://s40523122.github.io/BlogTest/blog/22_button1.html" rel="alternate"></link><published>2018-08-28T12:00:00+08:00</published><updated>2023-07-31T17:19:16+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2018-08-28:/BlogTest/blog/22_button1.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
