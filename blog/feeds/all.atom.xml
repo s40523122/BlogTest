@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>first try</title><link href="blog/" rel="alternate"></link><link href="blog/feeds/all.atom.xml" rel="self"></link><id>blog/</id><updated>2023-08-02T01:42:01+08:00</updated><entry><title>url 測試</title><link href="blog/relation_test.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-02T01:42:01+08:00</updated><author><name>40523122</name></author><id>tag:None,2023-08-01:blog/relation_test.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>first try</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2023-08-02T01:53:56+08:00</updated><entry><title>url 測試</title><link href="./relation_test.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-02T01:53:56+08:00</updated><author><name>40523122</name></author><id>tag:None,2023-08-01:./relation_test.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;以下環境皆為近端執行結果
  這是用相對文件位置抓取的圖片
@@ -46,9 +46,13 @@ https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/p&gt;
 https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;在 &lt;code&gt;SITEURL = 'blog'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：&lt;/p&gt;
+&lt;p&gt;在 &lt;code&gt;SITEURL = 'blog'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：
+https://s40523122.github.io/BlogTest/blog/images/AIJY.png&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content><category term="Test"></category><category term="images"></category></entry><entry><title>按鈕練習</title><link href="blog/22_button1.html" rel="alternate"></link><published>2018-08-28T12:00:00+08:00</published><updated>2023-07-31T17:19:16+08:00</updated><author><name>40523122</name></author><id>tag:None,2018-08-28:blog/22_button1.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;li&gt;
+&lt;p&gt;在 &lt;code&gt;SITEURL = './'&lt;/code&gt;、&lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，圖片地址為：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Test"></category><category term="images"></category></entry><entry><title>按鈕練習</title><link href="./22_button1.html" rel="alternate"></link><published>2018-08-28T12:00:00+08:00</published><updated>2023-07-31T17:19:16+08:00</updated><author><name>40523122</name></author><id>tag:None,2018-08-28:./22_button1.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
