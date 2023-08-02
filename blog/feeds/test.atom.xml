@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>first try - Test</title><link href="https://s40523122.github.io/BlogTest/blog/" rel="alternate"></link><link href="https://s40523122.github.io/BlogTest/blog/feeds/test.atom.xml" rel="self"></link><id>https://s40523122.github.io/BlogTest/blog/</id><updated>2023-08-02T05:09:17+08:00</updated><entry><title>url 測試</title><link href="https://s40523122.github.io/BlogTest/blog/relation_test.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-02T05:09:17+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2023-08-01:/BlogTest/blog/relation_test.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>first try - Test</title><link href="https://s40523122.github.io/BlogTest/blog/" rel="alternate"></link><link href="https://s40523122.github.io/BlogTest/blog/feeds/test.atom.xml" rel="self"></link><id>https://s40523122.github.io/BlogTest/blog/</id><updated>2023-08-03T02:13:05+08:00</updated><entry><title>url 測試</title><link href="https://s40523122.github.io/BlogTest/blog/relation_test.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-03T02:13:05+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2023-08-01:/BlogTest/blog/relation_test.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;絕對路徑圖片
- &lt;img alt="圖片介紹" src="images/AIJY.png"&gt;&lt;/p&gt;
+ &lt;img alt="圖片介紹" src="https://raw.githubusercontent.com/s40523122/BlogTest/main/blog/images/AIJY.png"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;相對路徑圖片
  &lt;img alt="圖片介紹" src="./images/AIJY.png"&gt;&lt;/p&gt;
@@ -13,11 +13,11 @@
 &lt;p&gt;在 &lt;code&gt;SITEURL = 'https://s40523122.github.io/BlogTest/blog'&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在 &lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，&lt;ul&gt;
-&lt;li&gt;絕對圖片路徑為：&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;相對圖片路 …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;li&gt;絕對圖片路徑為：&lt;code&gt;https://raw.githubusercontent.com/s40523122/BlogTest/main/blog/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;相對圖 …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;絕對路徑圖片
- &lt;img alt="圖片介紹" src="images/AIJY.png"&gt;&lt;/p&gt;
+ &lt;img alt="圖片介紹" src="https://raw.githubusercontent.com/s40523122/BlogTest/main/blog/images/AIJY.png"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;相對路徑圖片
  &lt;img alt="圖片介紹" src="./images/AIJY.png"&gt;&lt;/p&gt;
@@ -28,15 +28,16 @@
 &lt;p&gt;在 &lt;code&gt;SITEURL = 'https://s40523122.github.io/BlogTest/blog'&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在 &lt;code&gt;RELATIVE_URLS = True&lt;/code&gt; 時，&lt;ul&gt;
-&lt;li&gt;絕對圖片路徑為：&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;絕對圖片路徑為：&lt;code&gt;https://raw.githubusercontent.com/s40523122/BlogTest/main/blog/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;相對圖片路徑為：&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;文章路徑:&lt;code&gt;http://127.0.0.1:8000/relation_test.html&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;code&gt;RELATIVE_URLS = False&lt;/code&gt; 時，&lt;ul&gt;
-&lt;li&gt;絕對圖片路徑為：``&lt;/li&gt;
-&lt;li&gt;相對圖片路徑為：``&lt;/li&gt;
-&lt;li&gt;文章路徑:``&lt;/li&gt;
+&lt;li&gt;絕對圖片路徑為：&lt;code&gt;https://raw.githubusercontent.com/s40523122/BlogTest/main/blog/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;相對圖片路徑為：&lt;code&gt;http://127.0.0.1:8000/images/AIJY.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;文章路徑:&lt;code&gt;https://s40523122.github.io/BlogTest/blog/relation_test.html&lt;/code&gt;
+找不到主題，文章無法訪問(連結至舊版內容)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
