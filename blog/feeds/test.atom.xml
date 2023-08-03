@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>first try - Test</title><link href="https://s40523122.github.io/BlogTest/blog/" rel="alternate"></link><link href="https://s40523122.github.io/BlogTest/blog/feeds/test.atom.xml" rel="self"></link><id>https://s40523122.github.io/BlogTest/blog/</id><updated>2023-08-03T19:20:44+08:00</updated><entry><title>8月3日</title><link href="https://s40523122.github.io/BlogTest/blog/8/3.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-03T19:20:44+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2023-08-01:/BlogTest/blog/8/3.html</id><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>first try - Test</title><link href="https://s40523122.github.io/BlogTest/blog/" rel="alternate"></link><link href="https://s40523122.github.io/BlogTest/blog/feeds/test.atom.xml" rel="self"></link><id>https://s40523122.github.io/BlogTest/blog/</id><updated>2023-08-03T19:48:56+08:00</updated><entry><title>8月3日</title><link href="https://s40523122.github.io/BlogTest/blog/8/3.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-03T19:48:56+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2023-08-01:/BlogTest/blog/8/3.html</id><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;今天是 8/3，天氣晴!&lt;/p&gt;
 &lt;p&gt;絕對路徑圖片
@@ -9,7 +9,7 @@
  &lt;img alt="圖片介紹" src="./images/luby.jpg"&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;root 相對路徑圖片
- &lt;img alt="圖片介紹" src="/images/aqua.jpg"&gt;&lt;/p&gt;</content><category term="Test"></category><category term="images"></category></entry><entry><title>url 測試</title><link href="https://s40523122.github.io/BlogTest/blog/relation_test.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-03T17:49:31+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2023-08-01:/BlogTest/blog/relation_test.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+ &lt;img alt="圖片介紹" src="images/aqua.jpg"&gt;&lt;/p&gt;</content><category term="Test"></category><category term="images"></category></entry><entry><title>url 測試</title><link href="https://s40523122.github.io/BlogTest/blog/relation_test.html" rel="alternate"></link><published>2023-08-01T12:00:00+08:00</published><updated>2023-08-03T17:49:31+08:00</updated><author><name>40523122</name></author><id>tag:s40523122.github.io,2023-08-01:/BlogTest/blog/relation_test.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;目前狀態 : .//false&lt;/p&gt;
 &lt;p&gt;絕對路徑圖片
