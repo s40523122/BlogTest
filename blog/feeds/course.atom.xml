@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>first try - Course</title><link href="./" rel="alternate"></link><link href="feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2023-07-31T17:19:16+08:00</updated><entry><title>按鈕練習</title><link href="22_button1.html" rel="alternate"></link><published>2018-08-28T12:00:00+08:00</published><updated>2023-07-31T17:19:16+08:00</updated><author><name>40523122</name></author><id>tag:None,2018-08-28:22_button1.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>first try - Course</title><link href="./" rel="alternate"></link><link href="./feeds/course.atom.xml" rel="self"></link><id>./</id><updated>2023-07-31T17:19:16+08:00</updated><entry><title>按鈕練習</title><link href="./22_button1.html" rel="alternate"></link><published>2018-08-28T12:00:00+08:00</published><updated>2023-07-31T17:19:16+08:00</updated><author><name>40523122</name></author><id>tag:None,2018-08-28:./22_button1.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
